@@ -1,0 +1,7 @@
+# ไม่ต้อง upload ไฟล์ต้นฉบับ icon (ใช้ PNG ที่ resize แล้วแทน)
+icons/icon_src.jpg
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini

@@ -1,0 +1,73 @@
+#aru-visual-schedule {
+    width: 100%;
+    margin: 20px 0;
+    font-family: 'Sarabun', sans-serif;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-header {
+    display: flex;
+    background: #f4f4f4;
+    border-bottom: 1px solid #ddd;
+}
+
+.time-label {
+    flex: 1;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+    color: #333;
+    border-left: 1px solid #eaeaea;
+}
+
+.day-row {
+    display: flex;
+    border-bottom: 1px solid #eee;
+    position: relative;
+    height: 80px;
+}
+
+.day-label {
+    width: 80px;
+    background: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    border-right: 1px solid #ddd;
+    flex-shrink: 0;
+}
+
+.day-grid {
+    flex: 1;
+    position: relative;
+    background-image: linear-gradient(to right, #f9f9f9 1px, transparent 1px);
+    background-size: 10% 100%;
+}
+
+.class-block {
+    position: absolute;
+    top: 5px;
+    bottom: 5px;
+    border-radius: 6px;
+    padding: 8px;
+    color: white;
+    font-size: 12px;
+    line-height: 1.4;
+    overflow: hidden;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.class-block strong {
+    font-size: 13px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
