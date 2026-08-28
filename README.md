@@ -10,7 +10,7 @@
 ## วิธีติดตั้ง
 
 1. กด **Code → Download ZIP** แล้วแตกไฟล์
-2. เปิด Chrome → ไปที่ `chrome://extensions/`
+2. เปิด Chrome → พิมพ์ `chrome://extensions/`
 3. เปิด **Developer Mode** (มุมขวาบน)
 4. กด **Load unpacked** → เลือกโฟลเดอร์ที่แตกออกมา
 5. เข้าสู่ระบบที่ [e-student.aru.ac.th](https://e-student.aru.ac.th) → ไปหน้าตารางเรียน
